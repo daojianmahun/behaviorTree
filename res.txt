@@ -1,0 +1,154 @@
+{
+    bttype:SEL
+    level:1
+    children:{
+        1:{
+            bttype:SEQ
+            level:2
+            children:{
+                1:{
+                    bttype:CON
+                    level:3
+                    fun:isNotValentinesDay
+                    }
+
+                2:{
+                    bttype:ACT
+                    level:3
+                    fun:gotoCourt
+                    }
+
+                3:{
+                    bttype:ACT
+                    level:3
+                    fun:playBall
+                    }
+
+                level:2
+                }
+
+            }
+
+        2:{
+            bttype:SEL
+            level:2
+            children:{
+                1:{
+                    bttype:SEL
+                    level:3
+                    children:{
+                        1:{
+                            bttype:SEQ
+                            level:4
+                            children:{
+                                1:{
+                                    bttype:CON
+                                    level:5
+                                    fun:hasnotFlowerGF
+                                    }
+
+                                2:{
+                                    bttype:CON
+                                    level:5
+                                    param:100
+                                    fun:hasnotFlowerSelf
+                                    }
+
+                                3:{
+                                    bttype:ACT
+                                    level:5
+                                    fun:goHome
+                                    }
+
+                                4:{
+                                    bttype:ACT
+                                    level:5
+                                    fun:fetchMoney
+                                    }
+
+                                level:4
+                                }
+
+                            }
+
+                        2:{
+                            bttype:SEQ
+                            level:4
+                            children:{
+                                1:{
+                                    bttype:CON
+                                    level:5
+                                    fun:hasnotFlowerGF
+                                    }
+
+                                2:{
+                                    bttype:CON
+                                    level:5
+                                    fun:hasnotFlowerSelf
+                                    }
+
+                                3:{
+                                    bttype:ACT
+                                    level:5
+                                    fun:gotoFlowerShop
+                                    }
+
+                                4:{
+                                    bttype:ACT
+                                    level:5
+                                    fun:buyFlower
+                                    }
+
+                                level:4
+                                }
+
+                            }
+
+                        level:3
+                        }
+
+                    }
+
+                2:{
+                    bttype:SEQ
+                    level:3
+                    children:{
+                        1:{
+                            bttype:ACT
+                            level:4
+                            fun:gotoGF
+                            }
+
+                        2:{
+                            bttype:CON
+                            level:4
+                            fun:isHereGF
+                            }
+
+                        3:{
+                            bttype:CON
+                            level:4
+                            fun:hasnotFlowerGF
+                            }
+
+                        4:{
+                            bttype:ACT
+                            level:4
+                            fun:giveFlower
+                            }
+
+                        level:3
+                        }
+
+                    }
+
+                level:2
+                }
+
+            }
+
+        level:1
+        }
+
+    }
+
